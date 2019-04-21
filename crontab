@@ -1,0 +1,1 @@
+@reboot /usr/bin/python /home/pi/Desktop/autoRunCollection.py

@@ -60,3 +60,6 @@ Content-Type: application/json
 ```
 
 ![Sensor ID Example](/images/sensor-id-example.png "Sensor ID Example")
+
+## Auto Run
+In the `crontab` file found in this repo, you'll find the crontab entry I made to have the script start during reboot. Thus, once configured, a display will not be needed, and no action on the user is required. To verify the readings are being `POSTED`, check the `temperature-humidity` endpoint for recent readings, using the same authentication token used for the sensor controller.
