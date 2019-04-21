@@ -1,5 +1,5 @@
 # Setting up the sensor controller
-## Overvieww
+## Overview
 The sensor controller uses the DHT 22 temperature-humidity sensor attached to a Raspberry Pi B+. When referring to the sensor controller, this will be with regards to the Raspberry Pi B+ board. The sensor controller has an HDMI port, and USB ports for use with a display, and mouse/keyboard devices respectively. The USB port with a green PCB sticking out is the WiFi module to allow for remote connection. 
 
 The sensor controller requires a micro-USB connection to power the device. Note using a standard wall adapter with the USB cord will produce a startup message saying `undervoltage detected`. Typically, the CPU will be throttled in an undervoltage state. This is okay for our purposes. When the device is plugged in, its setup such that readings will begin being read, and requests will be attempted to be sent to `198.199.89.150`. Due to the device not being configured with the local WiFi network, the requests will not reach the server. You can either connect an ethernet cord to the sensor controller, or use an HDMI cable with a display, mouse, and keyboard, to configure the WiFi connection.
@@ -14,8 +14,8 @@ Most wire connections were soldered together, however the connection between the
 
 Below is a schematic detailing the pin placement (from https://rototron.info/dht22-tutorial-for-raspberry-pi )
 
-![DHT22 Sensor Schematic](https://www.rototron.info/wp-content/uploads/DHT22_02.jpg "DHT22 Sensor Schematic")
+![DHT22 Sensor Schematic](/images/DHT22-schematic.jpg "DHT22 Sensor Schematic")
 
 Marked on each wire is a piece of tape that matches the wire to the schematic. Below is an image with the wires connected
 
-
+![Sensor Controller Pin Setup](/images/sensor-controller-pin.jpeg "Sensor Controller Pin Setup")
