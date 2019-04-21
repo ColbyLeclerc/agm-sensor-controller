@@ -6,6 +6,16 @@ The sensor controller requires a micro-USB connection to power the device. Note 
 
 Most wire connections were soldered together, however the connection between the sensor and the sensor controller uses pins that may fall out during transit. In the event this occurs, see the 'Pin Placement' 
 
-## Setting up the WiFi connectin
+## Setting up the WiFi connection
+
+
 
 ## Pin placement
+
+Below is a schematic detailing the pin placement (from https://rototron.info/dht22-tutorial-for-raspberry-pi )
+
+![DHT22 Sensor Schematic](https://www.rototron.info/wp-content/uploads/DHT22_02.jpg "DHT22 Sensor Schematic")
+
+Marked on each wire is a piece of tape that matches the wire to the schematic. Below is an image with the wires connected
+
+
